@@ -5,7 +5,7 @@ Deploy files to remote server using Fabric
 '''
 from fabric.api import env, put, run
 import os.path
-env.hosts = ['web1.masila.tech', 'web2.masila.tech']
+env.hosts = ['web1.ekemena.tech', 'web2.ekemena.tech']
 
 
 def do_deploy(archive_path):
